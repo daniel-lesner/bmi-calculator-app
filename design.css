@@ -1,0 +1,20 @@
+h1 {
+    color:#a9cfd7;
+}
+
+#box1 {
+    border: 1px solid black ;
+    background: grey;
+  }
+
+#box2 {
+    border:2px solid black;
+    background: #a9cfd7;
+    text-align:center;
+}
+
+#box3 {
+    border:2px solid black;
+    background: #a9cfd7;
+    text-align:center;
+}
