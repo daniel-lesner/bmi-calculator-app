@@ -1,3 +1,3 @@
-Simple Body Mass Index Calculator Website made with JavaScript
+Responsive Body Mass Index Calculator application made with Vanilla JavaScript.
 
-You can access the website using this link: https://daniel-lesner.github.io/bmi_calculator/
+You can access the website at: https://daniel-lesner.github.io/bmi_calculator/
