@@ -3,31 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="design.css"/>
-    <script src="index.js"></script>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css"/>
 </head>
+
 <body>
-<div class="boxed" id="box1">
-<h1 align="center"><b>Welcome to my BMI site!<br/>Please complete the boxes below with your height and weight in order to calculate your Body Mass Index</b></h1>
-</div>
-<br>
-<div class="boxed" id="box2">
-<form action="/index.js">
-    <label for="weight">Weight (Kg): </label>
-    <input type="text" id="weight" name="weight"><br><br>
-    <label for="height">Height (cm): </label>
-    <input type="text" id="height" name="height"><br><br>
-    <input type="button" value="Calculate" onclick="myFunction()">
-</form>
-</div>
-<br>
+    <div class="boxed" id="titleBox">
+            <b>
+                Calculate your Body Mass Index
+                <br/>
+                Please complete the boxes below with 
+                your height and weight
+            </b>
+    </div>
 
-<div class="boxed" id="box3" hidden>
-<h2><b>You are what you are, your BMI is !</b> </h12>
-</div>
+    <br>
 
+    <div class="boxed" id="box">
+            <label for="weight" id="label">
+                Weight (kg) 
+            </label>
+            <input type="text" id="weight" name="weight"><br><br>
+            <label for="height" id="label">
+                Height (cm) 
+            </label>
+            <input type="text" id="height" name="height"><br><br>
+            <button id="button" value="Calculate" onclick="myFunction()">
+                Calculate
+            </button>
+    </div>
 
+    <br>
 
+    <div class="boxed" id="box3" hidden>
+        <h2>
+            <b></b>
+        </h2>
+    </div>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
