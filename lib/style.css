@@ -1,40 +1,40 @@
-body {
-    background-color: blanchedalmond;
-    text-align: center;
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color:#a9cfd7;
+body {
+    background-color: blanchedalmond;
+    background-image: linear-gradient(blanchedalmond, white);
+    text-align: center;
+    background-attachment: fixed;
 }
 
 #titleBox {
-    border: 2px solid black ;
     color:#a9cfd7;
     text-align: center;
     background: grey;
     padding: 15px 0 15px 0;
-    font-size: 25px;
+    font-size: 42px;
   }
 
-#box {
+#middleBox {
     width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border:2px solid black;
     padding: 15px 0 15px 0;
     background: #a9cfd7;
 }
 
-#box3 {
+#messageBox {
     width: 50%;
     margin: 0 auto;
-    border:2px solid black;
     background: #a9cfd7;
     text-align:center;
     font-size: 18px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 5px 5px 5px;
 }
 
 #button {
@@ -45,7 +45,6 @@ h1 {
     border: 20px;
     border-color: black;
     background-color:  grey;
-    border-radius: 35%;
 }
 
 #button:hover {
@@ -60,11 +59,10 @@ h1 {
 }
 
 #button:focus, input:focus {
-
     outline:none !important;
     outline-width: 0 !important;
 }
 
-label {
+#label {
     padding: 2px 0 2px 0;
 }

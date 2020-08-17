@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/style.css"/>
 </head>
 
 <body>
-    <div class="boxed" id="titleBox">
+    <div id="titleBox">
             <b>
                 Calculate your Body Mass Index
                 <br/>
@@ -17,9 +17,7 @@
             </b>
     </div>
 
-    <br>
-
-    <div class="boxed" id="box">
+    <div id="middleBox">
             <label for="weight" id="label">
                 Weight (kg) 
             </label>
@@ -31,16 +29,14 @@
             <button id="button" value="Calculate" onclick="myFunction()">
                 Calculate
             </button>
+
+            <div id="messageBox">
+                <h2>
+                    <b></b>
+                </h2>
+            </div>
     </div>
-
-    <br>
-
-    <div class="boxed" id="box3" hidden>
-        <h2>
-            <b></b>
-        </h2>
-    </div>
-
-    <script src="assets/script.js"></script>
+    
+    <script src="lib/script.js"></script>
 </body>
 </html>
